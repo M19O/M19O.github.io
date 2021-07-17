@@ -180,6 +180,10 @@ published: true
 <p>So we need to use base64 decode and after that we need to use aes decrypt with the key we got</p>
 <br>
 <p>You can use this link to decrypt it</p>
+<pre><span class="line">https://gchq.github.io/CyberChef/<span class="comment">#recipe=From_Base64('A-Za-z0-9%2B/%3D',false)AES_Decrypt(%7B'option':'Latin1','string':'k19D193j.%3C19391('%7D,%7B'option':'Hex','string':'0000000000000000000000000000000'%7D,'CBC','Raw','Raw',%7B'option':'Hex','string':''%7D,%7B'option':'Hex','string':'undefined'%7D)&amp;input=SDJkRnovak53dFNUV0RVUm90OUpCaFdNUDZYT2RtY3BncXZZSEczNVFLdz0</span></span><br></pre>
+
+<h1>ROOT Flag</h1>
+
 
 
 
