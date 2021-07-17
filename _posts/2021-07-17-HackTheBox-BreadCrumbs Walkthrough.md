@@ -113,6 +113,12 @@ published: true
 
 <p>That`s juicy, All users data but it looks like that only one user is enabled, that user is juliette, let`s check that file.</p>
 
+<img src="https://i.ibb.co/9tDr3Tq/juliette.png" alt="juliette" border="0">
+
+<p>Got creds now !!</p> 
+
+<img src="https://i.gifer.com/JQrj.gif" alt="creds" border="0">
+
 
 
 
