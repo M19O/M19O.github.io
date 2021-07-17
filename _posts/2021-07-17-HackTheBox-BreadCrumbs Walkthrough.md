@@ -136,7 +136,8 @@ published: true
 <p>You can download the files with more than way, use what you like</p>
 <p>In my case i used SCP to get the files</p>
 
-<h5>Usage : <p>scp "file you want to download" user@0.0.0.0:path "Your ip and where you want to download it"</p> </h5>
+<h5>Usage : </h5>
+<p>scp "file you want to download" user@0.0.0.0:path "Your ip and where you want to download it"</p>
 
 
 <h1>Lateral Movment</h1>
