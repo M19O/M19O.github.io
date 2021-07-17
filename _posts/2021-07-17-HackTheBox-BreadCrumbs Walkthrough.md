@@ -68,7 +68,11 @@ published: true
 
 <img src="https://i.ibb.co/WF7Yx8w/upload.png" alt="upload" border="0">
 
-<p>So we can upload now ! , Let`s check how it works</p>
+<p>So i can upload now ! , Let`s check how it works</p>
+
+<img src="https://i.ibb.co/pd6rCkN/token.png" alt="token" border="0">
+
+<p>It says there is a key called token is missing, i need to generate a token , let`s see how we can have one.</p>
 
 
 
