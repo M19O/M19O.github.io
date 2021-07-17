@@ -103,7 +103,7 @@ published: true
 
 <h1>Foothold</h1> 
 
-<p>Let`s start enumeration from inside</p>
+<p>Let`s start enumeration from inside, Upload dir is "Portal/Uploads" you will find your backdoor there</p>
 
 
 
