@@ -162,6 +162,8 @@ published: true
 <img src="https://i.ibb.co/Dt2th7T/Admin-PASS.png" alt="Admin-PASS" border="0">
 
 <p>That`s looks like a SQL statement, we need SQLMAP NOW</p>
+<img src="https://media.tenor.com/images/876add141e3362604965467cdece4f01/tenor.gif" alt="Admin-PASS" border="0">
+
 
 
 
