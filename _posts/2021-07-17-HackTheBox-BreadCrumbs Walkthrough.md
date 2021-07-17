@@ -92,6 +92,13 @@ published: true
 
 
 <p>Let`s upload the backdoor</p>
+<p>It accepts ZIP files only</p>
+
+<img src="https://i.ibb.co/tBwXD50/backdoor.png" alt="backdoor" border="0">
+
+<br>
+
+<img src="https://media4.giphy.com/media/jUK46vMp51xjgoS0oL/giphy.gif" alt="Bingo" border="0">
 
 
 
