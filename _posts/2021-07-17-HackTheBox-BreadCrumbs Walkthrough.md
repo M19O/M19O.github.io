@@ -52,7 +52,7 @@ published: true
 
 <img src="https://i.ibb.co/G7KQwy8/7.png" alt="7" border="0">
 
-<p>So now we got the code that generates the cookie, So let`s get paul`s cookie</p>
+<p>So now we got the code that generates the cookie, let`s get paul`s cookie</p>
 
 
 <pre><span class="line">function makesession($username) {</span><br><span class="line"></span><br><span class="line">$max = strlen($username) - 1;</span><br><span class="line"></span><br><span class="line">$seed = rand(0, $max);</span><br><span class="line"></span><br><span class="line">$key = "s4lTy_stR1nG_".$username[$seed]."(!528.\/9890";</span><br><span class="line"></span><br><span class="line">$session_cookie = $username.md5($key);</span><br><span class="line"></span><br><span class="line">return $session_cookie;</span><br><span class="line"></span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">echo makesession("paul");</span>><br></pre>
