@@ -85,8 +85,11 @@ published: true
 <p>To generate a token we need payload and secret key as mentioned , out payload load is a Multidimensional Array , { "data" { "username" : "paul" } }</p> 
 
 <pre><span class="line"><span class="variable">$secret_key</span> = <span class="string">'6cb9c1a2786a483ca5e44571dcc5f3bfa298593a6376ad92185c3258acd5591e'</span>;</span><br></pre>
+<
+<pre><span class="line"> Token= eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoicGF1bCJ9fQ.7pc5S1P76YsrWhi_gu23bzYLYWxqORkr0WtEz_IUtCU</span><br></pre>
 
 <img src="https://i.ibb.co/Kr0BGmk/generate-token.png" alt="generate-token" border="0">
+
 
 <p>Let`s upload the backdoor</p>
 
