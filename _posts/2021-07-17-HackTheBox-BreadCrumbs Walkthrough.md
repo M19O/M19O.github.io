@@ -81,4 +81,4 @@ published: true
 
 <img src="https://i.ibb.co/yWN6VGh/8.png" alt="8" border="0">
 
-<p>So there is a JWT token we need to generate to upload our backdoor</p>
+<p>Now we can generate our token</p>
