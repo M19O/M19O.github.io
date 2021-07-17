@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 ---
 <img src="https://i.ibb.co/nCsMGX3/1.png" alt="1" border="0"> 
 
@@ -190,11 +190,3 @@ published: true
 
 <img src="https://i.pinimg.com/originals/2a/10/bd/2a10bd126b2287247102dd88fd47ec7b.gif
 " alt="ROOT" border="0">
-
-
-
-
-
-
-
-
