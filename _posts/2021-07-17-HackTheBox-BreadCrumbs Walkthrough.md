@@ -6,10 +6,10 @@ published: true
 <P>Methodology</P>
 
 
-  <ul>1- Enumeration by LFI</ul>
-  <ul>2- Phpsessid and Jwt token forge</ul>
-  <ul>3- unrestricted upload</ul>
-  <ul>4- Database leak</ul>
-  <ul>5- Binary file analysis</ul>
-  <ul>6- Port forwarding</ul>
-  <ul>7- Database dump with SQLMAP</ul>
+  <li>1- Enumeration by LFI</li>
+  <li>2- Phpsessid and Jwt token forge</li>
+  <li>3- unrestricted upload</li>
+  <li>4- Database leak</li>
+  <li>5- Binary file analysis</li>
+  <li>6- Port forwarding</li>
+  liul>7- Database dump with SQLMAP</li>
