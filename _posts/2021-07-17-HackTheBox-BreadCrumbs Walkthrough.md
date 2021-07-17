@@ -105,6 +105,10 @@ published: true
 
 <p>Let`s start enumeration from inside, Upload dir is "Portal/Uploads" you will find your backdoor there</p>
 
+<img src="https://i.ibb.co/KDqCgKp/enumeration.png" alt="enumeration" border="0"> 
+
+<p>There is an interesting fold name pizzaDeliveryUserData, let`s check it.</p>
+
 
 
 
