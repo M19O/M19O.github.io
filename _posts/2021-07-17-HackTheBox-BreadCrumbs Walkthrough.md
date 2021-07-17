@@ -23,8 +23,8 @@ published: true
 <br>
 <img src="https://i.ibb.co/pPJx49Z/2.png" alt="2" border="0">
 
-<P>As a penetartion tester you should analyze the application to understand the functionality of it</P>
-<p>So now let`s check what that button does</p>
+**<P>As a penetartion tester you should analyze the application to understand the functionality of it</P>
+<p>So now let`s check what that button does.</p>**
 
 <img src="https://i.ibb.co/hgg9FsV/3.png" alt="3" border="0">
 
