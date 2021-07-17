@@ -86,6 +86,12 @@ published: true
 
 <pre><span class="line"><span class="variable">$secret_key</span> = <span class="string">'6cb9c1a2786a483ca5e44571dcc5f3bfa298593a6376ad92185c3258acd5591e'</span>;</span><br></pre>
 
+<img src="https://i.ibb.co/Kr0BGmk/generate-token.png" alt="generate-token" border="0">
+
+<p>Let`s upload the backdoor</p>
+
+
+
 
 
 
