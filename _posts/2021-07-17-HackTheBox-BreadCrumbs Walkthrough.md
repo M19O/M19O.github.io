@@ -92,9 +92,9 @@ published: true
 
 
 <p>Let`s upload the backdoor</p>
-<p>It accepts ZIP files only</p>
+<p>It accepts ZIP files only, so upload a zip file and change it`s content with php backdoor and youl will find the type of the uploaded file in the end of the request change it to PHP</p>
 
-<img src="https://i.ibb.co/tBwXD50/backdoor.png" alt="backdoor" border="0">
+<img src="https://i.ibb.co/V2sH5G0/backdoor.png" alt="backdoor" border="0">
 
 <br>
 
