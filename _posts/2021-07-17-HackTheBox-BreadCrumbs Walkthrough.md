@@ -98,7 +98,7 @@ published: true
 
 <br>
 
-<img src="https://media4.giphy.com/media/jUK46vMp51xjgoS0oL/giphy.gif" alt="Bingo" border="0" align=middle >
+<img src="https://media4.giphy.com/media/jUK46vMp51xjgoS0oL/giphy.gif" alt="Bingo" border="0" class="center">
 
 
 <h1>Foothold</h1> 
