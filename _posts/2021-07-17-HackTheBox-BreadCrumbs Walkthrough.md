@@ -75,11 +75,10 @@ published: true
 <p>It says there is a key called token is missing, i need to generate a token , let`s see how we can have one.</p>
 
 
-
 <img src="https://i.ibb.co/sgmRTzv/Login-php.png" alt="Login-php" border="0">
 
 <p>As you can see login.php uses authController.php to validate , now let`s see authcontroller.php content.</p>
 
 <img src="https://i.ibb.co/yWN6VGh/8.png" alt="8" border="0">
 
-<p>So there is a JWT token we need to generate to successfully login</p>
+<p>So there is a JWT token we need to generate to upload our backdoor</p>
