@@ -59,7 +59,18 @@ published: true
 <pre><span class="line">paul47200b180ccd6835d25d034eeb6e6390</span><br></pre>
 
 <p>Now we got our cookie</p>
-<p>after adding the cookie i didn`t login, there is something wrong, let`s check the login file</p>
+<p>Let`s change it and login</p>
+
+<img src="https://i.ibb.co/R4s8R0c/admin-login.png" alt="admin-login" border="0">
+
+<p>Now we got access</p>
+<p>Let`s check all the tabs and see what we can get</p>
+
+<img src="https://i.ibb.co/WF7Yx8w/upload.png" alt="upload" border="0">
+
+<p>So we can upload now ! , Let`s check how it works</p>
+
+
 
 <img src="https://i.ibb.co/sgmRTzv/Login-php.png" alt="Login-php" border="0">
 
@@ -67,12 +78,4 @@ published: true
 
 <img src="https://i.ibb.co/yWN6VGh/8.png" alt="8" border="0">
 
-<p>So there is a JWT token we need to generate to successfully login</p> 
-
-
-
-
-
-
-
-
+<p>So there is a JWT token we need to generate to successfully login</p>
