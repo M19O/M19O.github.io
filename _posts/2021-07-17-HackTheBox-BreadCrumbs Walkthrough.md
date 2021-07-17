@@ -48,7 +48,6 @@ published: true
 <img src="https://i.ibb.co/KqTmg1h/paul.png" alt="paul" border="0">
 
 <p>So now we got LFI , let`s start enumeration and see the source code</p>
-<br>
 
 <img src="https://i.ibb.co/G7KQwy8/7.png" alt="7" border="0">
 
