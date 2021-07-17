@@ -28,6 +28,13 @@ published: true
 
 <img src="https://i.ibb.co/hgg9FsV/3.png" alt="3" border="0">
 
+<p>From that page we can understand that the application is for reading books and that button checks for books with title and author name</p>
+<p>Let`s see how does the application search for books</p>
+
+<img src="https://i.ibb.co/WBJfXR3/4.png" alt="4" border="0">
+
+<p>So i started to test the searching with random word, in my case i used test to understand the behavior</p>
+<p>I got nothing from that, so i will start my proxy "Burpsuite" to intercept that request</p>
 
 
 
