@@ -55,11 +55,21 @@ published: true
 <p>So now we got the code that generates the cookie, let`s get paul`s cookie</p>
 
 
-<pre><span class="line">function makesession($username) {</span><br><span class="line"></span><br><span class="line">$max = strlen($username) - 1;</span><br><span class="line"></span><br><span class="line">$seed = rand(0, $max);</span><br><span class="line"></span><br><span class="line">$key = "s4lTy_stR1nG_".$username[$seed]."(!528.\/9890";</span><br><span class="line"></span><br><span class="line">$session_cookie = $username.md5($key);</span><br><span class="line"></span><br><span class="line">return $session_cookie;</span><br><span class="line"></span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">echo makesession("paul");</span>><br></pre>
+<pre><span class="line">$username="paul";</span><br><span class="line"></span><br><span class="line">$max =3;</span><br><span class="line"></span><br><span class="line">$seed = rand(0, $max);</span><br><span class="line"></span><br><span class="line">foreach (range(0, $max) as $seed) {</span><br><span class="line"></span><br><span class="line">$key = "s4lTy_stR1nG_".$username[$seed]."(!528./9890";</span><br><span class="line"></span><br><span class="line">$session_cookie = $username.md5($key);</span><br><span class="line"></span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">echo $session_cookie;</span>><br></pre>
 <pre><span class="line">paul47200b180ccd6835d25d034eeb6e6390</span><br></pre>
 
 <p>Now we got our cookie</p>
 <p>after adding the cookie i didn`t login, there is something wrong, let`s check the login file</p>
+
+<img src="https://i.ibb.co/sgmRTzv/Login-php.png" alt="Login-php" border="0">
+
+<p>As you can see login.php uses authController.php to validate , now let`s see authcontroller.php content.</p>
+
+<img src="https://i.ibb.co/yWN6VGh/8.png" alt="8" border="0">
+
+<p>So there is a JWT token we need to generate to successfully login</p> 
+
+
 
 
 
