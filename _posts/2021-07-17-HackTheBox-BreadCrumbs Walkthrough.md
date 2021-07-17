@@ -45,12 +45,12 @@ published: true
 <p>I managed to generate an error by changing the method value to 1</p>
 <p>The first line error says there is a missing key in the array called book and the second line error says that file_get_content method can`t find the file, so what if we gave it a file to open ?</p>
 
-<img src="https://i.ibb.co/G7KQwy8/7.png" alt="7" border="0">
+<img src="https://i.ibb.co/KqTmg1h/paul.png" alt="paul" border="0">
 
 <p>So now we got LFI , let`s start enumeration and see the source code</p>
 <br>
 
-<img src="https://i.ibb.co/KqTmg1h/paul.png" alt="paul" border="0">
+<img src="https://i.ibb.co/G7KQwy8/7.png" alt="7" border="0">
 
 <p>So after seeing files.php, we should get paul session to login</p>
 <p>Let`s countinue our enumeration</p>
