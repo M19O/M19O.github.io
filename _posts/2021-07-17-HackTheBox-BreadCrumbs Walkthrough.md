@@ -157,7 +157,11 @@ published: true
 
 <img src="https://i.ibb.co/wcS89yG/krypter-linux.png" alt="krypter-linux" border="0">
 
+<p>I tried type ./Krypter_linux and that what it gave me</p>
 
+<img src="https://i.ibb.co/Dt2th7T/Admin-PASS.png" alt="Admin-PASS" border="0">
+
+<p>That`s looks like a SQL statement, we need SQLMAP NOW</p>
 
 
 
