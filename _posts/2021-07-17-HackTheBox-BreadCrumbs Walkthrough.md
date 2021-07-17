@@ -109,6 +109,10 @@ published: true
 
 <p>There is an interesting fold name pizzaDeliveryUserData, let`s check it.</p>
 
+<img src="https://i.ibb.co/tJgd4c7/users.png" alt="users" border="0">
+
+<p>That`s juicy, All users data but it looks like that only one user is enabled, that user is juliette, let`s check that file.</p>
+
 
 
 
