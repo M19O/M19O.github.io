@@ -4,10 +4,6 @@ layout: page
 published: true
 ---
 
-You can always contact me via [Email](mailto:MohamedMagdyAbuMoslam@gmail.com).
+You can always contact me via [Email](mailto:MohamedMagdyAbuMuslim@gmail.com).
 
 If you need help you can reach me at [Facebook](:https://www.facebook.com/M19o0/).
-
-
-
-
