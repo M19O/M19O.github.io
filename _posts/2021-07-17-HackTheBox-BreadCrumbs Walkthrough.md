@@ -97,12 +97,13 @@ published: true
 <img src="https://i.ibb.co/V2sH5G0/backdoor.png" alt="backdoor" border="0">
 
 <br>
-
+<p class="aligncenter">
 <img src="https://media4.giphy.com/media/jUK46vMp51xjgoS0oL/giphy.gif" alt="Bingo" border="0" class="center">
-
+</p>
 
 <h1>Foothold</h1> 
 
+<p>Let`s start enumeration from inside</p>
 
 
 
