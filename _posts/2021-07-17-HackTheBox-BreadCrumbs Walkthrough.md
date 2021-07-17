@@ -82,3 +82,8 @@ published: true
 <img src="https://i.ibb.co/yWN6VGh/8.png" alt="8" border="0">
 
 <p>Now we can generate our token</p>
+
+<pre><span class="line"><span class="variable">$secret_key</span> = <span class="string">'6cb9c1a2786a483ca5e44571dcc5f3bfa298593a6376ad92185c3258acd5591e'</span>;</span><br></pre>
+
+
+
