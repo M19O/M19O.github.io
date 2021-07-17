@@ -151,6 +151,14 @@ published: true
 
 <img src="https://i.ibb.co/94mCRmj/laterl.png" alt="laterl" border="0">
 
+<h1>Privilege Escalation</h1>
+
+<p>What Development user have for?</p> 
+
+<img src="https://i.ibb.co/wcS89yG/krypter-linux.png" alt="krypter-linux" border="0">
+
+
+
 
 
 
