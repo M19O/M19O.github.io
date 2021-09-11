@@ -15,7 +15,7 @@ published: true
 <li>6 - Creating malicious pkg
 </ul>
 					
-Scanning phase : 
+<h1>Scanning phase :</h1> 
 
 ```
 Not shown: 998 closed ports  
@@ -39,7 +39,7 @@ We found two open ports (22 - 80).
 
 So what should we do here ? 
 
-1 - Searching for an exploit for the running services.
+1 - Searching for an exploit for the running services.</br>
 2 - Check the website and see what we can find.
 
 Enumeration : 
