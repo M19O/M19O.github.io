@@ -5,7 +5,7 @@ published: true
 
 <img src="https://i.ibb.co/j3QZnXc/Schooled.png" alt="Schooled" border="0">
 
-<h1>Summary :</h1>
+<h2>Summary :</h2>
 
 <li>1 - Stealing admin's cookie with XSS</li>
 <li>2 - Privilege escalation using a CVE</li>
@@ -15,7 +15,7 @@ published: true
 <li>6 - Creating malicious pkg</li>
 
 					
-<h1>Scanning phase :</h1> 
+<h2>Scanning phase :</h2> 
 
 ```
 Not shown: 998 closed ports  
@@ -43,7 +43,7 @@ So what should we do here ?
 1 - Searching for an exploit for the running services.<br>
 2 - Check the website and see what we can find.
 
-<h1>Enumeration : </h1>
+<h2>Enumeration : </h2>
 
 <img src="https://i.ibb.co/27mV3Yj/web.png" alt="web" border="0">
 
