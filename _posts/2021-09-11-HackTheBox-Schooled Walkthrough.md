@@ -40,7 +40,7 @@ We found two open ports (22 - 80).
 
 So what should we do here ? 
 
-1 - Searching for an exploit for the running services.</br>
+1 - Searching for an exploit for the running services.<br></br>
 2 - Check the website and see what we can find.
 
 <h1>Enumeration : </h1>
