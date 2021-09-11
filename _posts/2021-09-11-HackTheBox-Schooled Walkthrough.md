@@ -150,7 +150,7 @@ Just follow https://github.com/HoangKien1020/Moodle_RCE and trigger the rce at "
 
 <h1>Foothold : </h1>
 
-We got out shell !! 
+We got our shell !! 
 
 <img src="https://i.ibb.co/swMrynH/shell.png" alt="shell" border="0">
 
