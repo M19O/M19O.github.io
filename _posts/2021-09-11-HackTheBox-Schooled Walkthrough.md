@@ -1,6 +1,8 @@
 ---
 published: true
 ---
+
+
 <img src="https://i.ibb.co/j3QZnXc/Schooled.png" alt="Schooled" border="0">
 
 Summary :
