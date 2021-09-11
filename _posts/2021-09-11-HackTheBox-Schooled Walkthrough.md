@@ -95,7 +95,7 @@ Creating an account should be in that formula name@student.schooled.htb
 
 <img src="https://i.ibb.co/dDzXFCw/logged-in.png" alt="logged-in" border="0">
 
-After some searching i found this <a href="https://github.com/HoangKien1020/CVE-2020-14321" alt="CVE-2020-14321"></a> that is the latest CVE for moodle so it should be for that box 😉
+After some searching i found this <a href="https://github.com/HoangKien1020/CVE-2020-14321">CVE-2020-14321</a> that is the latest CVE for moodle so it should be for that box 😉
 
 So if you read the CVE you should understood that i should have teacher role to use it.
 
@@ -145,7 +145,7 @@ Now we can install plugin.
 
 <img src="https://i.ibb.co/st9NHxc/plugin.png" alt="plugin" border="0">
 
-Just follow <a href="https://github.com/HoangKien1020/Moodle_RCE" alt="Moodle RCE"></a> and trigger the rce at "domain/blocks/rce/lang/en/block_rce.php?cmd=id"
+Just follow <a href="https://github.com/HoangKien1020/Moodle_RCE" >Moodle Rce</a> and trigger the rce at "domain/blocks/rce/lang/en/block_rce.php?cmd=id"
 
 <img src="https://i.ibb.co/dmCmQcB/rce1.png" alt="rce1" border="0">
 
