@@ -42,7 +42,7 @@ So what should we do here ?
 1 - Searching for an exploit for the running services.</br>
 2 - Check the website and see what we can find.
 
-Enumeration : 
+<h1>Enumeration : </h1>
 
 <img src="https://i.ibb.co/27mV3Yj/web.png" alt="web" border="0">
 
@@ -147,7 +147,7 @@ Just follow https://github.com/HoangKien1020/Moodle_RCE and trigger the rce at "
 <img src="https://i.ibb.co/dmCmQcB/rce1.png" alt="rce1" border="0">
 
 
-Foothold : 
+<h1>Foothold : </h1>
 
 We got out shell !! 
 
@@ -165,7 +165,7 @@ Now let's crack the hash.
 
 <img src="https://i.ibb.co/ZGpsTWz/crack.png" alt="crack" border="0">
 
-User Flag : 
+<h1>User Flag : </h1>
 
 Jamies password = !QAZ2wsx
 
@@ -214,7 +214,7 @@ This script will create .txz file.
 
 <img src="https://i.ibb.co/qmNcZwz/txs.png" alt="txs" border="0">
 
-Root flag : 
+<h1>Root flag : </h1>
 
 1 - Setup a listner on your machine 
 2 - use this command  "sudo pkg install --no-repo-update *.txz"
