@@ -95,7 +95,7 @@ Creating an account should be in that formula name@student.schooled.htb
 
 <img src="https://i.ibb.co/dDzXFCw/logged-in.png" alt="logged-in" border="0">
 
-After some searching i found this https://github.com/HoangKien1020/CVE-2020-14321 that is the latest CVE for moodle so it should be for that box 😉
+After some searching i found this <a href="https://github.com/HoangKien1020/CVE-2020-14321" alt="CVE-2020-14321"></a> that is the latest CVE for moodle so it should be for that box 😉
 
 So if you read the CVE you should understood that i should have teacher role to use it.
 
