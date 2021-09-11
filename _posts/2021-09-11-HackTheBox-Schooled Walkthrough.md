@@ -40,7 +40,7 @@ We found two open ports (22 - 80).
 
 So what should we do here ? 
 
-1 - Searching for an exploit for the running services.<br></br>
+1 - Searching for an exploit for the running services.<br>
 2 - Check the website and see what we can find.
 
 <h1>Enumeration : </h1>
@@ -217,7 +217,7 @@ This script will create .txz file.
 
 <h1>Root flag : </h1>
 
-1 - Setup a listner on your machine <br></br>
+1 - Setup a listner on your machine <br>
 2 - use this command  "sudo pkg install --no-repo-update *.txz"
 
 <img src="https://i.ibb.co/LpnvwFY/root.png" alt="root" border="0">
