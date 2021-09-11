@@ -217,7 +217,7 @@ This script will create .txz file.
 
 <h1>Root flag : </h1>
 
-1 - Setup a listner on your machine 
+1 - Setup a listner on your machine <br></br>
 2 - use this command  "sudo pkg install --no-repo-update *.txz"
 
 <img src="https://i.ibb.co/LpnvwFY/root.png" alt="root" border="0">
