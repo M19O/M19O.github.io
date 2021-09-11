@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 <img src="https://i.ibb.co/j3QZnXc/Schooled.png" alt="Schooled" border="0">
 
@@ -220,6 +220,3 @@ Root flag :
 <img src="https://i.ibb.co/LpnvwFY/root.png" alt="root" border="0">
 
 <img src="https://c.tenor.com/J4GjjwnXX8QAAAAd/scarface-tony-montana.gif" alt="montana">
-
-
-
