@@ -7,12 +7,12 @@ published: true
 
 <h1>Summary :</h1>
 
-<li>1 - Stealing admin's cookie with XSS
-<li>2 - Privilege escalation using a CVE
-<li>3 - Getting RCE 
-<li>4 - Database Enumeration
-<li>5 - Password cracking
-<li>6 - Creating malicious pkg
+<li>1 - Stealing admin's cookie with XSS</li>
+<li>2 - Privilege escalation using a CVE</li>
+<li>3 - Getting RCE </li>
+<li>4 - Database Enumeration</li>
+<li>5 - Password cracking</li>
+<li>6 - Creating malicious pkg</li>
 
 					
 <h1>Scanning phase :</h1> 
