@@ -35,6 +35,7 @@ Not shown: 998 closed ports
  No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
 ```
 
+
 We found two open ports (22 - 80).
 
 So what should we do here ? 
