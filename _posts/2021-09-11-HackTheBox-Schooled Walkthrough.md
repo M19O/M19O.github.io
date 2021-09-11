@@ -148,7 +148,7 @@ Just follow https://github.com/HoangKien1020/Moodle_RCE and trigger the rce at "
 <img src="https://i.ibb.co/dmCmQcB/rce1.png" alt="rce1" border="0">
 
 
-<h1>Foothold : </h1>
+<h2>Foothold : </h2>
 
 We got our shell !! 
 
@@ -166,7 +166,7 @@ Now let's crack the hash.
 
 <img src="https://i.ibb.co/ZGpsTWz/crack.png" alt="crack" border="0">
 
-<h1>User Flag : </h1>
+<h2>User Flag : </h2>
 
 Jamies password = !QAZ2wsx
 
@@ -215,7 +215,7 @@ This script will create .txz file.
 
 <img src="https://i.ibb.co/qmNcZwz/txs.png" alt="txs" border="0">
 
-<h1>Root flag : </h1>
+<h2>Root flag : </h2>
 
 1 - Setup a listner on your machine <br>
 2 - use this command  "sudo pkg install --no-repo-update *.txz"
